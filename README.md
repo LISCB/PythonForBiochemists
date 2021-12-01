@@ -19,17 +19,17 @@ Now we create a new Anaconda *environment*, which will let us isolate our Python
     ```
     conda create -n pythonforbiochemists
     conda activate pythonforbiochemists
-    conda install -y numpy matplotlib scipy pandas jupyterlab
+    conda install -y numpy matplotlib scipy pandas jupyterlab openpyxl
     ```
 *  GUI:
-    1. Open the Anaconda Navigator app SS
-    2. Click on "Environments" SS
-    3. Create a new environment called 'pythonforbiochemists' SS
-    4. Click on 'update index' SS
-    5. Select these packages for install: numpy, matplotlib, scipy, pandas, jupyterlab SS
+    1. Open the Anaconda Navigator app
+    2. Click on "Environments"
+    3. Create a new environment called 'pythonforbiochemists'
+    4. Click on 'update index'
+    5. Select these packages for install: numpy, matplotlib, scipy, pandas, jupyterlab, openpyxl
     6. Click on 'apply' and accept that ~100 packages will actually be installed.
 
-Now, we'll choose a download location for the tutorial (here, we'll use a folder called 'Documents',) and download this repository using Git (you can get the URL for a repository by clicking on the green box labeled 'Code'. SS)  *There are only command-line instructions for now:*
+Now, we'll choose a download location for the tutorial (here, we'll use a folder called 'Documents',) and download this repository using Git (you can get the URL for a repository by clicking on the green box labeled 'Code'.)  *There are only command-line instructions for now:*
 *  Command line:
     ```
     cd Documents
@@ -42,17 +42,17 @@ Finally, we can start open *Jupyter Lab*
     1. `conda activate pythonforbiochemists` (You've already done this, but you'll need to do it anytime you want to use this environment.  Running it multiple times doesn't hurt.)
     2. `jupyter-lab`
 *  GUI:
-    1. Go back to the home screen. SS
-    2. Make sure you select the 'pythonforbiochemists' environment. SS
-    3. Run Jupyter Lab. SS
-    4. On the left-hand side, navigate to where you cloned this repo. SS
+    1. Go back to the home screen.
+    2. Make sure you select the 'pythonforbiochemists' environment.
+    3. Run Jupyter Lab.
+    4. On the left-hand side, navigate to where you cloned this repo.
 
 Because this repository will continue to be updated, it's best for you to copy notebooks before working on them.  Otherwise you'll have to merge your changes if you want to stay up-to-date.
 
-1. Navigate into the `tutorials` folder. SS
-2. Right click on notebook 1 and duplicate it. SS
-3. Double click on the new copy. SS
-4. Follow the directions to complete Tutorial 1. SS
+1. Navigate into the `tutorials` folder.
+2. Right click on notebook 1 and duplicate it.
+3. Double click on the new copy.
+4. Follow the directions to complete Tutorial 1.
 
 ## Continuing updates
 This repository will continue to be updated with new tutorials and topics as the Python community within LISCB grows.  In order to the latest updates, just go into the `PythonForBiochemists` directory and run `git pull`.
